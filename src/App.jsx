@@ -13,10 +13,17 @@ import Parent1 from "./Topics/05_context/Parent1";
 import UserLists from "./Topics/06_Lists/UserLists";
 import LifeCycleInCBC from "./Topics/07_LifeCycle/LifeCycleInCBC";
 import LifeCycleInFBC from "./Topics/07_LifeCycle/LifeCycleInFBC";
+import Fetch1 from "./Topics/08_FetchApi/Fetch1";
+import Loader from "./Components/Loader.jsx";
+import Fetch2 from "./Topics/08_FetchApi/Fetch2.jsx";
+import Navbar from "./Topics/09_ReactCss/Navbar.jsx";
+import Header from "./Topics/09_ReactCss/Header.jsx";
+import Card from "./Topics/09_ReactCss/Card.jsx";
+import Footer from "./Topics/09_ReactCss/Footer.jsx";
 
 function App() {
-  const [toggle, setToggle] = useState(false);
-  const handleToggle = () => setToggle(!toggle);
+  // const [toggle, setToggle] = useState(false);
+  // const handleToggle = () => setToggle(!toggle);
   return (
     <div>
       {/* <FunctionBasedComponent /> */}
@@ -33,9 +40,15 @@ function App() {
                 <ParentComp />
             </MyContext> */}
       {/* <UserLists /> */}
-      <button onClick={handleToggle}>toggle me</button>
+      {/* <button onClick={handleToggle}>toggle me</button> */}
       {/* {toggle && <LifeCycleInCBC />} */}
-      {toggle && <LifeCycleInFBC />}
+      {/* {toggle && <LifeCycleInFBC />} */}
+      {/* <Fetch1 /> */}
+      {/* <Fetch2 /> */}
+      <Navbar />
+      <Header />
+      <Card />
+      <Footer />
     </div>
   );
 }
