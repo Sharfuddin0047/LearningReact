@@ -20,6 +20,10 @@ import Navbar from "./Topics/09_ReactCss/Navbar.jsx";
 import Header from "./Topics/09_ReactCss/Header.jsx";
 import Card from "./Topics/09_ReactCss/Card.jsx";
 import Footer from "./Topics/09_ReactCss/Footer.jsx";
+import Controlled1 from "./Topics/10_Forms/Controlled1.jsx";
+import Uncontrolled from "./Topics/10_Forms/Uncontrolled.jsx";
+import Reducer from "./Topics/11_Reducer/Reducer.jsx";
+import Dashboard from "./Task1/Dashboard.jsx";
 
 function App() {
   // const [toggle, setToggle] = useState(false);
@@ -45,10 +49,15 @@ function App() {
       {/* {toggle && <LifeCycleInFBC />} */}
       {/* <Fetch1 /> */}
       {/* <Fetch2 /> */}
-      <Navbar />
+      {/* <Navbar />
       <Header />
       <Card />
-      <Footer />
+      <Footer /> */}
+      {/* <Controlled1 />
+      <Controlled1 /> */}
+      {/* <Uncontrolled /> */}
+      {/* <Reducer /> */}
+      <Dashboard />
     </div>
   );
 }
