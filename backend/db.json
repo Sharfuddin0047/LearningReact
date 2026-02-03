@@ -1,0 +1,49 @@
+{
+  "employees": [
+    {
+      "id": "f3ed",
+      "firstname": "JOhn",
+      "middlename": "",
+      "lastname": "Doe",
+      "maritalstatus": "married",
+      "dob": "2025-09-02",
+      "email": "john@gmail.com",
+      "mobilenumber": "987654321",
+      "street": "qwerty",
+      "city": "Noida",
+      "state": "UP",
+      "country": "India",
+      "zipcode": "987658"
+    },
+    {
+      "id": "c41d",
+      "firstname": "Jane",
+      "middlename": "",
+      "lastname": "Doe",
+      "maritalstatus": "single",
+      "dob": "2025-09-12",
+      "email": "jane@gmail.com",
+      "mobilenumber": "9876543210",
+      "street": "qwerty",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "zipcode": "111111"
+    },
+    {
+      "id": "aa1a",
+      "firstname": "James",
+      "middlename": "",
+      "lastname": "jake",
+      "maritalstatus": "married",
+      "dob": "2026-02-03",
+      "email": "james@gmail.com",
+      "mobilenumber": "9876543210",
+      "street": "B4",
+      "city": "Noida",
+      "state": "UP",
+      "country": "India",
+      "zipcode": "980789"
+    }
+  ]
+}

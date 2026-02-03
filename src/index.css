@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} */
+.header {
+  padding: 50px;
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  font-size: 20px;
+}
