@@ -1,12 +1,15 @@
+import React from "react";
+
 const Loader = () => {
-  const LoaderStyles = {
+  const loaderStyles = {
     height: "100px",
     width: "100px",
-    border: "20px solid gainsboro",
-    borderTop: "20px solid gray",
+    border: "10px solid gainsboro",
+    borderTop: "10px solid gray",
     borderRadius: "50%",
-    animation: "spin 1s linear infinite"
+    animation: "spin 1s linear infinite",
   };
+
   return (
     <>
       <style>
@@ -19,10 +22,13 @@ const Loader = () => {
                     rotate : 360deg
                 }
             }
-        `}
+           
+           `}
       </style>
-      <div style={LoaderStyles}></div>
+
+      <div style={loaderStyles}></div>
     </>
   );
 };
+
 export default Loader;
